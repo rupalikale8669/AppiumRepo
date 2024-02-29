@@ -1,0 +1,10 @@
+[
+  {
+    "ProjectType": "Ceiling",
+    "ProjectType1": "Wall",
+    "ProjectType2": "Table",
+    "ProjectType3": "Floor",
+    "ProjectType4": "OutDoor",
+    "ProjectType5": "Fans"
+  }
+]

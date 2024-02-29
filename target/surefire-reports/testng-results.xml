@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-01T11:33:33 IST" name="Surefire suite" finished-at="2024-02-01T11:33:33 IST" duration-ms="5">
+    <groups>
+    </groups>
+    <test started-at="2024-02-01T11:33:33 IST" name="Surefire test" finished-at="2024-02-01T11:33:33 IST" duration-ms="5">
+      <class name="AppiumProjectDemo.VCIOSBaseTest">
+        <test-method is-config="true" signature="reportSetup()[pri:0, instance:AppiumProjectDemo.VCIOSBaseTest@2b4a2ec7]" started-at="2024-02-01T11:33:33 IST" name="reportSetup" finished-at="2024-02-01T11:33:33 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method is-config="true" signature="reportTearDown()[pri:0, instance:AppiumProjectDemo.VCIOSBaseTest@2b4a2ec7]" started-at="2024-02-01T11:33:33 IST" name="reportTearDown" finished-at="2024-02-01T11:33:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTearDown -->
+      </class> <!-- AppiumProjectDemo.VCIOSBaseTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="AppiumProjectDemo.TestUtils.Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="/Users/qa/IdeaProjects/AppiumAutomation">
+        <classes>
+           <!--<class name="AppiumProjectDemo.VCSampleTCs">
+               <methods>
+                    <include name="clickOnSignIn"/>
+                    <include name="searchProduct"/>
+                    <include name="createNewProject"/>
+                    <include name="selectValueFromDropdown"/>
+                    <include name="verifyAddToProject"/>
+                    <include name="clickOnNavigateBackToProjectEditor"/>
+                    <include name="validateEditProjectDetails"/>
+                    <include name="addCustomerDetails"/>
+                    <include name="validateQuoteSummary"/>
+                </methods>
+            </class>-->
+            <!--<class name="AppiumProjectDemo.VCTestCaseUsingDataProvider">
+                <methods>
+                    <include name="clickOnSignIn"/>
+                    <include name="searchProduct"/>
+                    <include name="createNewProject"/>
+                    <include name="selectValueFromDropdown"/>
+                    <include name="verifyAddToProject"/>
+                    <include name="clickOnNavigateBackToProjectEditor"/>
+                    <include name="validateEditProjectDetails"/>
+                    <include name="addCustomerDetails"/>
+                    <include name="validateQuoteSummary"/>
+                </methods>
+            </class>-->
+            <class name="AppiumProjectDemo.VCTestCasesParameterizationJSON">
+                <methods>
+                    <include name="clickOnSignIn"/>
+                    <include name="searchProduct"/>
+                    <!--<include name="validateFilterFunctionality"/>-->
+                    <include name="createNewProject"/>
+                    <include name="selectValueFromDropdown"/>
+                    <include name="verifyAddToProject"/>
+                    <include name="clickOnNavigateBackToProjectEditor"/>
+                    <include name="validateEditProjectDetails"/>
+                    <!--<include name="createCustomerDetailsRD"/>-->
+                     <include name="addCustomerDetails"/>
+                    <include name="viewEditProjectDetails"/>
+                    <include name="validateQuoteSummary"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
