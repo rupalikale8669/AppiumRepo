@@ -79,6 +79,7 @@ public class VCIOSBaseTest extends ExtentReportDemo {
 
         driver=new IOSDriver(new URL("http://127.0.0.1:4723"),options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        System.out.println("Test");
 
 
     }
